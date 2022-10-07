@@ -1,0 +1,426 @@
+
+
+*{
+    box-sizing: border-box;
+}
+html, body{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/desktop/image-hero.jpg);
+}
+nav{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.menu img{
+display: none;
+}
+.logo{
+    padding-top: 2%;
+    margin-left: 11%;
+    
+}
+nav ol{
+list-style-type: none;
+display: flex;
+gap: 6%;
+font-family: 'Josefin Sans', sans-serif;
+font-weight: bold;
+
+}
+nav ol li{
+    color: hsl(0, 0%, 100%);
+}
+.text{
+    width: 30%;
+    height: 35vh;
+    margin-left: 10%;
+    margin-top: 10%;
+    border: 2px solid hsl(0, 0%, 100%);
+}
+.text h1{
+    color: hsl(0, 0%, 100%);
+    /* font-family: 'Alata', sans-serif; */
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.part2{
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+}
+.image{
+    width: 50%;
+    height: 70vh;
+    background-image: url(images/desktop/image-interactive.jpg);
+    margin-left: 10%;
+    margin-top: 8%;
+
+}
+.part2-right{
+    width: 35%;
+    height: 43%;
+    background-color: hsl(0, 0%, 100%);
+    margin-left: -7%;
+    margin-top: 23%;
+}
+.part2-right h1{
+    /* font-family: 'Alata', sans-serif; */
+    font-family: 'Josefin Sans', sans-serif;
+    color: hsl(0, 0%, 55%);
+    font-size: 30px;
+    padding-left: 10%;
+    margin-top: 12%;
+    
+
+}
+
+.part2-right p{
+    color: hsl(0, 0%, 55%);
+    font-family: 'Alata', sans-serif; 
+    font-size: 14px;
+    padding-left: 10%;
+    margin-top: 11%;
+}
+.part3{
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(0, 0%, 100%);
+    
+    
+
+}
+.part3a{
+    width: 100%;
+    /* height: 10%; */
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.part3a h1{
+    font-family: 'Josefin Sans', sans-serif;
+    color: hsl(0, 0%, 55%);
+    font-size: 30px;
+
+   
+}
+.part3a button{
+    width: 8%;
+    height: 5vh;
+    margin-right: 20%;
+    background-color: hsl(0, 0%, 0%);
+    color:  hsl(0, 0%, 100%);
+}
+.gallery{
+    width: 100%;
+    height: 130vh;
+    background-color: white;
+}
+.gallery1{
+    width: 100%;
+    height: 60vh;
+    /* background-color: blue; */
+    margin-left: 10%;
+    display: flex;
+    gap: 2%;
+    margin-top: 3%;
+    padding-right: 2%;
+    
+}
+.gallery1a{
+    width: 19%;
+    height: 60vh;
+  
+    background-image: url(images/desktop/image-deep-earth.jpg);
+}
+.gallery1a p{
+    color:  hsl(0, 0%, 100%);
+    margin-left: 15%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    margin-top: 120%;
+    font-weight: bold;
+}
+
+.gallery1b{
+    width: 19%;
+    height: 60vh;
+  
+    background-image: url(images/desktop/image-night-arcade.jpg);
+}
+.gallery1b p{
+    color:  hsl(0, 0%, 100%);
+    margin-left: 15%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    margin-top: 120%;
+    font-weight: bold;
+}
+.gallery1c{
+    width: 19%;
+    height: 60vh;
+  
+    background-image: url(images/desktop/image-soccer-team.jpg);
+}
+.gallery1c p{
+    color:  hsl(0, 0%, 100%);
+    margin-left: 15%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    margin-top: 120%;
+    font-weight: bold;
+}
+.gallery1d{
+    width: 19%;
+    height: 60vh;
+  
+    background-image: url(images/desktop/image-grid.jpg);
+}
+.gallery1d p{
+    color:  hsl(0, 0%, 100%);
+    margin-left: 15%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    margin-top: 120%;
+    font-weight: bold;
+}
+.gallery2{
+    width: 100%;
+    height: 60vh;
+    margin-left: 10%;
+    display: flex;
+    gap: 2%;
+    padding-right: 2%;
+    margin-top: 2%;
+}
+.gallery2a{
+    width: 19%;
+    height: 60vh;
+  
+    background-image: url(images/desktop/image-from-above.jpg);
+}
+.gallery2a p{
+    color:  hsl(0, 0%, 100%);
+    margin-left: 15%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    margin-top: 120%;
+    font-weight: bold;
+}
+.gallery2b{
+    width: 19%;
+    height: 60vh;
+  
+    background-image: url(images/desktop/image-pocket-borealis.jpg);
+}
+.gallery2b p{
+    color:  hsl(0, 0%, 100%);
+    margin-left: 15%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    margin-top: 120%;
+    font-weight: bold;
+}
+.gallery2c{
+    width: 19%;
+    height: 60vh;
+  
+    background-image: url(images/desktop/image-curiosity.jpg);
+}
+.gallery2c p{
+    color:  hsl(0, 0%, 100%);
+    margin-left: 15%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    margin-top: 120%;
+    font-weight: bold;
+}
+.gallery2d{
+    width: 19%;
+    height: 60vh;
+  
+    background-image: url(images/desktop/image-fisheye.jpg);
+}
+.gallery2d p{
+    color:  hsl(0, 0%, 100%);
+    margin-left: 15%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    margin-top: 120%;
+    font-weight: bold;
+}
+.footer{
+    width: 100%;
+    height: 25vh;
+    background-color: hsl(0, 0%, 0%);
+    display: flex;
+    justify-content: space-between;
+}
+.right{
+    width: 50%;
+    margin-left: 10%;
+    /* background-color: brown; */
+}
+.right .logo{
+    margin-left: -1%;
+    margin-top: 4%;
+}
+.olist{
+  margin-left: -8%;
+}
+.olist ol{
+    margin-top: 5%;
+    display: flex;
+    list-style-type: none;
+    gap: 3%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+}
+.olist ol li{
+    color: hsl(0, 0%, 100%);
+}
+
+.left{
+    width: 50%;
+    padding-left: 27%;
+    
+}
+.media{
+    margin-top: 15%;
+    display: flex;
+    gap: 5%
+    
+    
+
+}
+.left h4{
+
+color: hsl(0, 0%, 55%);
+margin-left: -50%;
+margin-top: 16%;
+font-family: 'Josefin Sans', sans-serif;
+font-weight: bold;
+
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and ( max-width: 720px){
+    nav ol {
+        display: none;
+    }
+
+header{
+background-image: url(images/mobile/image-hero.jpg);
+}
+.menu img{
+    display: flex;
+    }
+    .text {
+        width: 80%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .header{
+    width: 100%;
+    height: 100vh;
+    /* background-image: url(images/desktop/image-hero.jpg); */
+    /* background-image: url(images/mobile/image-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 6%;
+} */
+/* 
+.logo h1{
+    color: hsl(0, 0%, 100%);
+    margin-left: 8%;
+    padding-top: 4%;
+} */
+/* :root{
+    --white color: hsl(0, 0%, 100%) ;
+} */
+
+/* .header ol li a{
+    color: hsl(0, 0%, 100%);
+}
+.header ol{
+    list-style-type: none;
+    display: none;
+} */ 
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+DESKTOP RULES
+@media screen and (min-width:720px){
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/desktop/image-hero.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+}
+.header ol{
+    list-style-type: none;
+    display: flex;
+    
+}
+.nav{
+    display: none;
+}
+} */
